@@ -29,6 +29,12 @@ Tạo project → import TXT/MD/PDF có text → chọn đoạn nguồn → xem 
 
 Bắt đầu bằng adapter demo offline để kiểm tra lưu trữ/provenance. Adapter thật chỉ báo đã kiểm thử khi có provider/CLI thật. Không dựng lại hàng loạt tính năng dựa trên README cũ.
 
+## Tiến độ lát cắt đầu
+- Đã triển khai project, import TXT/MD/PDF, phiên bản, FTS5, packet xem được, demo/manual adapter và kết quả/decision lưu lại.
+- 16 kiểm thử offline đã pass; smoke test Streamlit chạy luồng chính thành công.
+- Mốc 1 có nền tảng dùng được; mốc 0 CLI trên Mac và mốc 2 AI tự động vẫn chưa hoàn thành.
+- Chi tiết bằng chứng, giới hạn và việc sửa tiếp: [STATUS.md](STATUS.md).
+
 ## Việc tiếp theo sau lát cắt đầu
 - Có source MVP thì kiểm tra baseline/schema rồi mới chọn phần tái sử dụng.
 - Probe CLI trên Mac có binary và đăng nhập thực tế; lưu phiên bản và bằng chứng, không lưu token.
